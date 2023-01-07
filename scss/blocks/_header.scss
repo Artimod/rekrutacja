@@ -1,0 +1,23 @@
+@use '../base/variables' as v;
+header {
+  padding: 25px;
+  @extend %mixin-card_heafer-footer;
+
+}
+h1 {
+    color: v.$text_zaglowki;
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+}
+.red{
+  color: red;
+  font-size: calc(100% - 10%);
+  margin: 0px 2px 0px 2px;
+  
+}
+.red-18{
+  color: red;
+  font-size: 18px;
+  margin: 0px 3px 0px 3px;
+}

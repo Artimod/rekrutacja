@@ -1,0 +1,49 @@
+
+.alert{
+    
+    animation: showBlock .3s linear forwards;
+
+    opacity: 100;
+    
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    @keyframes showBlock {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+}
+
+
+.alert-flexbox{
+    
+    margin: 0;
+}
+.alert-flexbox-rek{
+    width: 70%;
+    margin: 0;
+}
+.alert-container{
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    .pomoc_img {
+        padding-left: 5px;
+        width: 60%;
+    }
+}
+.alert-text{
+    padding: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+}

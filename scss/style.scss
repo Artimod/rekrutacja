@@ -1,0 +1,16 @@
+//base 
+@use "./base/reset";
+@use "./base/variables";
+@use "./base/base";
+
+// blocks
+@use "./blocks/header";
+@use "./blocks/main";
+@use "./blocks/mapa";
+@use "./blocks/form";
+@use "./blocks/tables";
+@use "./blocks/pomoc";
+@use "./blocks/footer";
+@use "./blocks/responsive";
+@use "./blocks/rekrutacja";
+@use "./blocks/alert";

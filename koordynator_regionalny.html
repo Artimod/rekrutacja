@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Rekrutacja</title>
+  </head>
+  <body>
+    <header>
+      <h1><span class="red_text">R</span>ekrutacja na stanowisko <span class="red_text">K</span>oordynatora <span class="red_text">R</span>egionalnego</h1>
+    </header>
+    <main>
+      <section class="zaglowek">
+        <h2>ART<span class="red">I</span>MOD</h2>
+        <div class="zaglowek__right">
+          <div class="zaglowek__item">
+            <a  target="_blank" href="https://www.venezia.pl">VENEZIA</a>
+            <p> <span class="red">I</span> </p>
+            <a  target="_blank" href="https://www.unisono.eu">UNISONO</a>
+            <img class="zaglowek__img" src="assets/icons/gonext.svg" alt=">>" />
+            <div class="zaglowek__item">
+              <a href="https://artimod.github.io/rekrutacja">Rekrutacja</a>
+            </div>
+            <img class="zaglowek__img" src="assets/icons/gonext.svg" alt=">>" />
+            <div class="zaglowek__item">
+              <a href="https://artimod.github.io/rekrutacja/koordynator_regionalny">Koordynator Regionalny</a>
+            </div>
+          </div>
+        </div>
+      </section>
+   
+      <section class="flexbox">
+        <div class="container blad">
+          <div class="instal">
+            <div class="rekrutacja">
+              <p class="grub">Prowadzimy wewnętrzną rekrutację* na stanowisko <span class="under">Koordynatora Regionalnego</span>.</p>
+              <p>Nasza firma wciąż się rozwija otwierając nowe salony obydwu brandów na terenie całego kraju. Dążymy do rozbudowy działu koordynacji oraz poszerzenia struktur personalnych odpowiedzialnych za funkcjonowanie pracy salonów.</p>
+              <p class="grub">Pasujesz do nas idealnie <span class="under">jeśli:</span></p>
+              <ul>
+                <li>jesteś osobą komunikatywną i zorientowaną na pracę zespołową,</li>
+                <li>posiadasz umiejętność organizacji własnej pracy i dostosowywania się do zmieniającej się sytuacji,</li>
+                <li>jesteś osobą dyspozycyjną, gotową do podróży służbowych (prawo jazdy kat. B),</li>
+                <li>masz wysoko rozwinięte umiejętności interpersonalne. </li>
+              </ul>
+              <p class="grub">Do Twoich przyszłych zadań będzie <span class="under">należało:</span></p>
+              <ul>
+                <li>monitorowanie i analiza sprzedaży,</li>
+                <li>kontrola zatowarowania salonów (optymalizacje, cykliczne inwentaryzcje), </li>
+                <li>koordynowanie i wsparcie pracy zespołów oraz regularne odwiedzanie swoich salonów,</li>
+                <li>współpraca międzydziałowa, </li>
+                <li>obserwowanie i reagowanie na działania konkurencji. </li>
+              </ul>
+              <p class="grub">Czekamy na Twoją <span class="under">aplikację!</span></p>
+              <p>Jeśli czujesz, że chcesz się rozwijać i rozpocząć kolejny etap pracy w naszej firmie to ogłoszenie skierowane jest właśnie do Ciebie :) </p>
+              <p>*analizą zgłoszeń zajmie się Komisja Rekrutacyjna we współpracy z obecnymi Koordynatorami poszczególnych regionów. </p>
+            </div>
+            </div>
+          </div>
+      </section>
+      <section class="flexbox">
+        <div class="container">
+          <form class="form" id="google-sheets">
+            <label class="form__label kandydat">Wprowadź numer salonu</label>
+            <div class="telefon">
+              <input readonly value="Salon" class="form__item mail-input kandydat salonmin"  type="text"><br>
+              <input required id="code" name="Salon" class="form__item kandydat salonmax" pattern="^[0-9]{3}$" autocomplete="off" placeholder="Wprowadź w formacie - 000"><br>
+            </div>
+              <label class="form__label kandydat">Wprowadź Imię i Nazwisko</label>
+              <input required id="code" name="Kandydat" class="form__item kandydat" pattern="^[A-ż ]{2,40}$" autocomplete="off" placeholder="Imię Nazwisko"><br>
+              <label class="form__label kandydat">Jakie są Twoje oczekiwania finansowe (netto)?</label>
+              <input required id="code" name="Netto" class="form__item kandydat" pattern="^[0-9]{3,5}$" autocomplete="off" placeholder="Wprowadź w formacie - 1234"><br>
+              <input required id="code" name="Na_stanowisko" style="display: none;" value="Koordynator Regionalny"><br>
+              
+              <button class="btn">ZATWIERDŹ</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <div class="alert">
+      <div class="alert-flexbox-rek flexbox">
+        <div class="alert-container container">
+          <div class="alert-text">
+            <p class="p-glowny">Dziękujemy za Twoją aplikację!</p>
+            <p class="p-glowny">Życzymy miłego dnia ʕ ᵔᴥᵔ ʔ</p>
+            <p class="p-glowny">Zespół ART<span class="red">I</span>MOD</p>
+          </div>
+          <div class="center">
+            <div id="button" class="btn ok">OK</div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-width">
+        <div class="zaglowek__item">
+            <a target="_blank" href="https://www.artimod.pl">@2023.ART<span class="red">I</span>MOD</a>
+        </div>
+        <div class="zaglowek__right">
+          <div class="zaglowek__item">
+            <a  target="_blank" href="https://www.venezia.pl">VENEZIA</a>
+            <p> <span class="red red-18">I</span> </p>
+            <a  target="_blank" href="https://www.unisono.eu">UNISONO</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/g-form.js"></script>
+  </body>
+</html>

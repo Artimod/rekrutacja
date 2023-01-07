@@ -1,0 +1,129 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 80%;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 98%;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 98%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h1{
+    font-size: 45px;
+  }
+  .btn {
+    margin-top: 100px;
+    font-size: 60px;
+    padding: 20px 70px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  a,
+  p,
+  output,
+  h3,
+  .flexbox h3,
+  .container p,
+  .nav__link,
+  .form__label,
+  .form__item {
+    font-size: 30px;
+  }
+  .form__item {
+    width: 90%;
+    padding: 4%;
+  }
+  .form__label{
+    font-size: 35px;
+  }
+  .form__podpowiedz{
+    margin-top: -5px;
+    margin-bottom: 25px;
+    font-size: 25px;
+  }
+  .form__blad{
+
+    margin-bottom: -25px;
+    font-size: 30px;
+  }
+  .form .procmin{
+    width: 20%;
+  }
+  .form .procmax{
+    width: 70%;
+  }
+  .dodano{
+    padding: 4%;
+  }
+  
+  .zaglowek__img {
+    width: 5%;
+  }
+  .nav__item {
+    margin: 15px;
+    width: 80%;
+  }
+  .stopka{
+    width: 45%;
+    scale: 190%;
+    margin-top: 180px;
+    margin-bottom: 180px;
+    p, a{
+      font-size: 11pt;
+    }
+    .logo{
+      margin-bottom: -50px;
+      width: 100%;
+    }
+    .btn{
+      margin-top: 55px;
+      margin-bottom: -10px;
+      scale: 70%;
+    }
+   
+  }
+
+  img{
+    width: 4.2%;
+  }
+  .tes{
+    margin-right: 5px;
+  }
+  .tek{
+    margin-right:8.5px;
+  }
+  .logo_mail{
+    margin-right: 8px;
+  }
+  
+  .form,
+  .zaglowek,
+  .opis,
+  .content_main,
+  .footer-width,
+  .container {
+    padding: 50px 2px 50px 2px;
+    width: 98%;
+  }
+
+  // .form {
+  //   display: none;
+  // }
+  .mob{
+    display: block;
+    font-size: 45px;
+  }
+}

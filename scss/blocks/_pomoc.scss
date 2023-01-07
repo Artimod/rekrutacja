@@ -1,0 +1,122 @@
+@use "../base/variables" as v;
+
+
+.instal{
+width: 90%;
+}
+
+.zaglowek_btn{
+  display: flex;
+  justify-content: space-around;
+    padding: 1.5%;
+    width: 100%;
+    font-size: 18px;
+
+    
+}
+.rozwin{
+  cursor: pointer;
+  display: flex;
+  font-size: 26px;
+  font-weight: 900;
+  color: v.$blue;
+
+  transition-delay: .1s;
+  &:active{
+    color: v.$text;
+    .rozwin-svg{
+      fill: v.$text;
+      rotate: 180deg;
+      transition-delay: .1s;
+    }
+  }
+}
+.rozwin_active{
+  display: none;
+  cursor: pointer;
+  font-size: 26px;
+  font-weight: 900;
+  color: v.$text;
+  transition-delay: .1s;
+  &:active{
+    color: v.$blue;
+    .rozwin-svg{
+      fill: v.$blue;
+      rotate: 0deg;
+      transition-delay: .1s;
+    }
+  }
+    .rozwin-svg{
+      fill: v.$text;
+      rotate: 180deg;
+  }
+}
+
+.rozwin-svg{
+  margin-left: 10px;
+  width: 40px;
+  margin-top: -7px;
+  fill: v.$blue;
+  transition: rotate .1s;
+}
+.pomoc_film{
+  width: 840px;
+  height: 472.5px;
+  border-radius: 4px;
+
+}
+.p-glowny{
+  font-size: 28px;
+  font-weight: 900;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.red-glowny{
+@extend %mixin-card_elements;
+padding: 50px;
+color: red;
+margin-top: 70px;
+margin-bottom: 50px;
+line-height: 1.5;
+}
+.red_text{
+  color: red;
+}
+.black_text{
+  color: black;
+}
+.pomoc_info{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  .pomoc_info_text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    .pomoc_text{
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 1.7;
+      
+    }
+  }
+}
+.pomoc_img{
+  width: 50%;
+}
+.ukryty_film{
+    display: none;
+    margin-top: 30px;
+    text-align: center;
+}
+.zmiana-poczty{
+    
+    margin-top: 30px;
+    text-align: center;
+}
+.odstep{
+  margin-bottom: 30px;
+}

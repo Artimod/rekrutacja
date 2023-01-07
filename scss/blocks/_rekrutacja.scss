@@ -1,0 +1,28 @@
+.rekrutacja {
+    p {
+      font-size: 18px;
+      line-height: 1.4;
+      margin-bottom: 20px;
+      font-weight: 500;
+      
+    }
+    .grub{
+        font-weight: 600;
+        
+    }
+    .grub::first-letter {
+        font-size: 24px;
+        color: red;
+      }
+    .under{
+        text-decoration: underline red 2px; 
+    }
+    ul{
+        list-style-type: disc;
+        font-size: 18px;
+        line-height: 1.4;
+        font-weight: 500;
+        margin-bottom: 30px;
+        margin-left: 40px;
+    }
+}
