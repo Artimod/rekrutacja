@@ -5,7 +5,7 @@ $(
     $(".form").submit(function (event) {
       event.preventDefault();
       let appLink =
-        "https://script.google.com/macros/s/AKfycbyMCKFMXhok_XZzaNW9OYqF9MjBqfqMDCVeExgIN_DNnC0S1dwptwH6a_Opkin0a1hF/exec";
+        "https://script.google.com/macros/s/AKfycbyr0ttAbG7xP6c82ZhdaxvYGHit1Yob2gUUFpBqxI29Xc44rm_woURTemS76V3p7Tx3wg/exec";
 
       let form = $("#" + $(this).attr("id"))[0];
 
