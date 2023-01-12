@@ -1,16 +1,60 @@
+.g-form__preloader { 
+	height: 100%;
+	width: 100%;
+	position: relative;
+	margin: 15px 0;
+	opacity: 1;
+}
+.g-form__preloader:before {
+	background: mediumturquoise;
+	content: '';
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	width: 50px;
+	height: 4px;
+	-webkit-animation: smartlidPreloader 3s infinite;
+	animation: smartlidPreloader 3s infinite;
+}
+@-webkit-keyframes smartlidPreloader {
+	0% {
+		left: 0; }
+		50% {
+            background: red;
+			left: -webkit-calc(100% - 50px);
+			left: calc(100% - 50px); }
+			100% {
+				left: 0%; } 
+			}
 
+			@keyframes smartlidPreloader {
+				0% {
+					left: 0; }
+					50% {
+                        background: red;
+						left: -webkit-calc(100% - 50px);
+						left: calc(100% - 50px); }
+						100% {
+							left: 0%; } 
+						}
+
+.alert-ok{
+    display: none;
+}
+.alert-it{
+    display: none;
+}
+.alert-test{
+    display: none;
+}
 .alert{
-    
     animation: showBlock .3s linear forwards;
-
     opacity: 100;
-    
     position: fixed;
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
     top: 0;
-    display: none;
     align-items: center;
     justify-content: center;
 
@@ -23,10 +67,7 @@
         }
       }
 }
-
-
 .alert-flexbox{
-    
     margin: 0;
 }
 .alert-flexbox-rek{
